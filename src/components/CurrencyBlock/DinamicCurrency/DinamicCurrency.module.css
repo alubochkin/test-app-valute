@@ -1,0 +1,11 @@
+.DinamicCurrency {
+  display: flex;
+  align-items: center;
+}
+.DinamicCurrency.Up {
+  color: #0be652
+}
+
+.DinamicCurrency.Down {
+  color: red;
+}

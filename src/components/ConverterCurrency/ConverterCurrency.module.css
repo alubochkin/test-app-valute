@@ -1,0 +1,42 @@
+.ConverterCurrency {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 30px #33333354;
+  padding: 30px 15px;
+  color: #8954f7;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ConverterCurrency .Select {
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  color: #8954f7;
+  cursor: pointer;
+  border-bottom: 2px solid;
+}
+.ConverterCurrency .Input {
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  color: #8954f7;
+  cursor: pointer;
+  border-bottom: 2px solid;
+  max-width: 50%;
+}
+.ConverterCurrency .BlockSingleValute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border: 1px solid;
+  width: calc(50% - 15px);
+}
+
+.ConverterCurrency .interactiveConvertVlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

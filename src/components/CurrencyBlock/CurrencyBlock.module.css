@@ -1,0 +1,63 @@
+.SelectList {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 30px #33333354;
+  padding: 30px 15px;
+  color: #8954f7;
+  margin-top: 50px;
+}
+
+.SelectList .Select {
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  color: #8954f7;
+  cursor: pointer;
+  border-bottom: 2px solid;
+}
+.SelectList .searchWrapper {
+  position: relative;
+}
+.SelectList .BlockResultSearch {
+  position: absolute;
+  background: #fff;
+  padding: 5px 10px;
+  box-shadow: 4px 14px 20px #33333345;
+  max-height: 250px;
+  overflow-y: auto;
+  visibility: hidden;
+}
+.SelectList .isOpen {
+  visibility: visible;
+}
+.SelectList .Input {
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  color: #8954f7;
+  cursor: pointer;
+  border-bottom: 2px solid;
+  max-width: 50%;
+}
+.SelectList .ItemSearchList {
+  padding: 3px 0;
+  cursor: pointer;
+}
+.SelectList .TitleCurrency {
+  font-size: 16px;
+}
+
+.SelectList .InterActiveModule {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 5fr 2fr;
+  gap: 36px;
+}
+
+.SelectList .DescriptionBlock {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 30% 10% 60%;
+  gap: 10px;
+  align-items: center;
+}
